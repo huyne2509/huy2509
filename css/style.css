@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.style{
+    padding-left: 300px;
+}
+.cham{
+    display: inline-block;
+    padding: 30px 5px;
+    
+    
+}
+.home{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+.home:hover{
+    color: aqua;
+}
+.logo{
+    position: absolute;
+    padding-top: 5px;
+}
+.login{
+    position: absolute;
+    right: 100px;
+    top: 26px;
+}
+.write{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.login1{
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    padding: 5px;
+}
+
+.login1:hover{
+    background-color: rgb(172, 37, 37);
+}
+.nav{
+    height: 280px;
+    width: 1000px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+.image{
+    height: 280px;
+    width: 100%;
+}
+h1 {
+    color: white;
+    position: absolute;
+    left: 430px;
+    top: 210px;
+    text-shadow: 3px 3px red;
+    
+}
+h4{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 425px;
+}
+.category{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+}
+.category1{
+    font-weight: bolder;
+    color: rgb(156, 189, 8);
+    text-align: center;
+    padding: 15px 0px;
+}
+.col-25{
+    background-color: antiquewhite;
+    width: 25%;
+    height: 380px;
+    float: left;
+    border: 1px solid red;
+    margin: 60px 50px;
+    text-align: center;
+    position: relative;
+
+}
+.name{
+    margin: 5px;
+    padding: 2px;
+    color: red;
+}
+.turn{
+    position: absolute;
+    left: 20px;
+}
+.price{
+    position: absolute;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 7px;
+    bottom: 70px;
+    left: 130px;
+}
+.turn1{
+    position: absolute;
+    color: red;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 7px;
+    bottom: 30px;
+    left: 117px;
+}
+.turn1:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.search{
+    width: 1000px;
+    height: 140px;
+    position: relative;
+    margin: 450px 130px 10px 130px;
+}
+.bar{
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    padding: 5px;
+}
+.rank{
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #ccc;
+    left: 100px;
+    width: 174px;
+    top: 55px;
+}
+option{
+    border: 1px;
+}
+.code{
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #ccc;
+    top: 15px;
+    left: 400px;
+}
+.gem{
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #ccc;
+    left: 400px;
+    width: 174px;
+    top: 55px;
+}
+.money{
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #ccc;
+    left: 700px;
+    width: 174px;
+    top: 15px;
+}
+.status{
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #ccc;
+    left: 700px;
+    width: 174px;
+    top: 55px;
+}
+.all{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.all2{
+    padding: 5px;
+    background-color: aqua;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+.all3{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+.nav2{
+    width: 100%;
+}
+.coll-25{
+    width: 23%;
+    height: 380px;
+    border: 1px solid red;
+    position: relative;
+    margin: 0px 10px 10px 15px;
+    float: left;
+}
+.image2{
+    width: 100%;
+    height: 250px;
+}
+.name2{
+    position:absolute;
+    left: 25px;
+    bottom: 95px;
+}
+.skin{
+    position: absolute;
+    left: 25px;
+    bottom: 70px;
+}
+.generals{
+    position: absolute;
+    right: 25px;
+    bottom: 95px;
+}
+.yes{
+    position: absolute;
+    right: 25px;
+    bottom: 70px;
+}
+.price2{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    padding: 10px;
+    font-size: 15px;
+    color: red;
+    border: 1px solid red;
+}
+.detail{
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: aqua;
+    color: white;
+    border: none;
+}
+.detail:hover{
+    background-color: rgb(39, 236, 236);
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 780px;
+    background-color: black;
+}
+.production{
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: white;
+}
+.production2{
+    position: absolute;
+    background-color: black;
+    width: 400px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 15px;
+    left: 400px;
+    color: white;
+}
+.hotline{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    right: 10px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.style{
+    padding-left: 300px;
+}
+.cham{
+    display: inline-block;
+    padding: 30px 5px;
+    
+    
+}
+.home{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+.home:hover{
+    color: aqua;
+}
+.logo{
+    position: absolute;
+    padding-top: 5px;
+}
+.login{
+    position: absolute;
+    right: 100px;
+    top: 26px;
+}
+.write{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.login1{
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    padding: 5px;
+}
+
+.login1:hover{
+    background-color: rgb(172, 37, 37);
+}
+.nav{
+    width: 350px;
+    height: 300px;
+    border: 1px solid wheat;
+    left: 500px;
+    top: 150px;
+    position: absolute;
+}
+.tv{
+    position: absolute;
+    font-weight: bold;
+    top: 10px;
+    left: 90px;
+    font-size: 20px;
+}
+.bangdk{
+    position: absolute;
+    width: 200px;
+    left: 70px;
+}
+.bangdk1{
+    position: absolute;
+    width: 210px;
+    left: 70px;
+    background-color: aqua;
+    border: none;
+    padding: 5px;
+}
+.hoac{
+    position: absolute;
+    font-size: 13px;
+    left: 147px;
+}
+.icon{
+    position: absolute;
+    width: 120px;
+    left: 118px;
+    border: none;
+    background-color: rgb(38, 38, 233);
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 520px;
+    left: 0px;
+    background-color: black;
+}
+.production{
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: white;
+}
+.production2{
+    position: absolute;
+    background-color: black;
+    width: 400px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 15px;
+    left: 400px;
+    color: white;
+}
+.hotline{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    right: 10px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: white;
+}
